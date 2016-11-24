@@ -1,5 +1,4 @@
 /* Custom Stylesheet */
-
 nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
     display: inline-block;
     vertical-align: top;
@@ -90,6 +89,14 @@ p {
     margin: -2px 0 10px 0;
 }
 
+.circle {
+  border-radius: 50% !important;
+}
+
+.responsive-img {
+  border-radius: 2px;
+}
+
 .table-of-contents {
     position: fixed;
 }
@@ -102,7 +109,7 @@ p {
     border-left: 1px solid #512888;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1088px) {
     .parallax-container .section {
         position: absolute;
         top: 40%;
