@@ -49,6 +49,7 @@ nav {
 
 .brand-logo img {
     height: 64px;
+    margin-right: 15px;
     vertical-align: top;
 }
 
@@ -115,7 +116,7 @@ p {
         top: 40%;
     }
     .brand-logo img {
-        margin-left: 25px;
+        margin-left: 50px;
     }
     #index-banner .section {
         top: 10%;
