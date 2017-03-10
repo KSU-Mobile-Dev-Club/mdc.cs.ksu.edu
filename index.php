@@ -48,7 +48,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 				<li><a href="#projects" class="button icon fa-chevron-down scrolly">Learn More</a></li>
 			</ul>
 		</div>
-		<div class="image phone"><div class="inner"><img src="images/screen.jpg" alt="" /></div></div>
+		<div class="image phone"><div class="inner"><img src="images/ios.jpg" alt="" /></div></div>
 	</header>
 	<section id="projects" class="wrapper">
 		<header class="major"><h2>Our Projects</h2></header>
