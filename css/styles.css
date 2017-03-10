@@ -19,18 +19,22 @@ header.major:after {
   margin-left: 25px;
 }
 
+.officer:last-child {
+  padding-bottom: 50px;
+}
+
 .officer, .project {
   display: inline-block;
   text-align: center;
 }
 
 .officer {
-  width: 33%;
+  width: 49%;
   margin-top: 3em;
 }
 
 .project {
-  width: 24%;
+  width: 100%;
   min-height: 136px;
   vertical-align: top;
 }
@@ -49,4 +53,26 @@ header.major:after {
 
 .image img {
   width: 100%;
+}
+
+@media (min-width: 680px) {
+  .project {
+    width: 49%;
+  }
+}
+
+@media (min-width: 972px) {
+  .project {
+    width: 33%;
+  }
+
+  .officer {
+    width: 33%;
+  }
+}
+
+@media (min-width: 1300px) {
+  .project {
+    width: 24%;
+  }
 }
