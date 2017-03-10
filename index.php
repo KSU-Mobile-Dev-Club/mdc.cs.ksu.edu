@@ -58,7 +58,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 					<h3><a href="<?= $project->html_url ?>" target="_blank"><?= $project->name ?></a></h3>
 					<?php $date = new dateTime($project->updated_at); ?>
 					<div class="info">
-						<?php if($project->language != "") { ?>
+						<?php if($project->language != ""){ ?>
 							<span><?= $project->language ?></span>
 						<?php } else { ?>
 							<span class="null"></span>
@@ -68,7 +68,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 					<p><?php if($project->description != null){ echo $project->description;} ?></p>
 				</div>
 			</section>
-		<? } ?>
+		<?php } ?>
 	</section>
 	<section id="officers" class="wrapper">
 		<header class="major"><h2>MDC Officers</h2></header>
