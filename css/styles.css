@@ -1,0 +1,52 @@
+header.major:after {
+  border-bottom: none;
+}
+
+.info {
+  margin: -25px 0 10px 0;
+  font-size: 14px;
+}
+
+.info span {
+  display: inline-block;
+}
+
+.null {
+  margin-right: -25px;
+}
+
+.updated {
+  margin-left: 25px;
+}
+
+.officer, .project {
+  display: inline-block;
+  text-align: center;
+}
+
+.officer {
+  width: 33%;
+  margin-top: 3em;
+}
+
+.project {
+  width: 24%;
+  min-height: 136px;
+  vertical-align: top;
+}
+
+.officer h3, .officer h4 {
+  margin-bottom: 0;
+}
+
+.officer .image {
+  width: 30%;
+}
+
+.officer .content {
+  margin-top: 10px;
+}
+
+.image img {
+  width: 100%;
+}
