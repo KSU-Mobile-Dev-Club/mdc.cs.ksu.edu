@@ -11,10 +11,6 @@ a:hover, #footer a:hover {
   color: #784EE5 !important;
 }
 
-header.major:after {
-  border-bottom: none;
-}
-
 .info {
   margin: -25px 0 10px 0;
   font-size: 14px;

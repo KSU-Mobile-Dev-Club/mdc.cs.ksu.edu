@@ -55,8 +55,8 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 		<?php foreach(array_reverse($projects) as $project){ ?>
 			<section class="project">
 				<div class="content">
-					<h3><a href="<?= $project->html_url ?>" target="_blank"><?= $project->name ?></a></h3>
-					<?php $date = new dateTime($project->updated_at); ?>
+					<h3><a href="<?= $project->html_url; ?>" target="_blank"><?= $project->name ?></a></h3>
+					<?php $date = new dateTime($project->pushed_at); ?>
 					<div class="info">
 						<?php if($project->language != ""){ ?>
 							<span><?= $project->language ?></span>
@@ -80,7 +80,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 			</div>
 		</section>
 		<section class="officer">
-			<div class="image"><img src="images/default.jpg" alt="" /></div>
+			<div class="image"><img src="images/rwood.jpg" alt="" /></div>
 			<div class="content">
 				<h3><a href="http://people.cs.ksu.edu/~reaganwood1" target="_blank">Reagan Wood</a></h3>
 				<h4>Vice President</h4>
