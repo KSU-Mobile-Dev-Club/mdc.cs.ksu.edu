@@ -73,9 +73,9 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 	<section id="officers" class="wrapper">
 		<header class="major"><h2>MDC Officers</h2></header>
 		<section class="officer">
-			<div class="image"><img src="images/acoleman.jpg" alt="" /></div>
+			<div class="image"><img src="images/jjohnson.jpg" alt="" /></div>
 			<div class="content">
-				<h3><a href="http://people.cs.ksu.edu/~ashley78" target="_blank">Ashley Coleman</a></h3>
+				<h3><a href="http://people.cs.ksu.edu/~jjohn411/" target="_blank">Jeremy Johnson</a></h3>
 				<h4>President</h4>
 			</div>
 		</section>
@@ -87,24 +87,17 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 			</div>
 		</section>
 		<section class="officer">
-			<div class="image"><img src="images/eschmar.jpg" alt="" /></div>
+			<div class="image"><img src="images/keisenb.jpg" alt="" /></div>
 			<div class="content">
-				<h3><a href="http://people.cs.ksu.edu/~schmare" target="_blank">Eric Schmar</a></h3>
+				<h3><a href="https://kyle-eisenbarger.com/" target="_blank">Kyle Eisenbarger</a></h3>
 				<h4>Secretary</h4>
 			</div>
 		</section>
 		<section class="officer">
-			<div class="image"><img src="images/acabanatuan.jpg" alt="" /></div>
+			<div class="image"><img src="images/mgblair.jpg" alt="" /></div>
 			<div class="content">
-				<h3><a href="http://people.cs.ksu.edu/~allanjay808" target="_blank">AJ Cabanatuan</a></h3>
+				<h3><a href="http://people.cs.ksu.edu/~mgblair" target="_blank">MaryGrace Blair</a></h3>
 				<h4>Treasurer</h4>
-			</div>
-		</section>
-		<section class="officer">
-			<div class="image"><img src="images/atodd.jpg" alt="" /></div>
-			<div class="content">
-				<h3><a href="http://people.cs.ksu.edu/~atodd" target="_blank">Alex Todd</a></h3>
-				<h4>Webmaster</h4>
 			</div>
 		</section>
 		<section class="officer">
