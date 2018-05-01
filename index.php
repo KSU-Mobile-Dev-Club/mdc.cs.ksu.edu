@@ -74,37 +74,30 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
     <section id="officers" class="wrapper">
       <header class="major"><h2>MDC Officers</h2></header>
       <section class="officer">
-        <div class="image"><img src="images/jjohnson.jpg" alt="" /></div>
+        <div class="image"><img src="images/laurel.jpg" alt="" /></div>
         <div class="content">
-          <h3><a href="http://people.cs.ksu.edu/~jjohn411/" target="_blank">Jeremy Johnson</a></h3>
+          <h3>Laurel Thomson</h3>
           <h4>President</h4>
         </div>
       </section>
       <section class="officer">
-        <div class="image"><img src="images/rwood.jpg" alt="" /></div>
+        <div class="image"><img src="images/default.jpg" alt="" /></div>
         <div class="content">
-          <h3><a href="http://people.cs.ksu.edu/~reaganwood1" target="_blank">Reagan Wood</a></h3>
+          <h3>Luke Langston</h3>
           <h4>Vice President</h4>
         </div>
       </section>
       <section class="officer">
-        <div class="image"><img src="images/keisenb.jpg" alt="" /></div>
+        <div class="image"><img src="images/steven.jpg" alt="" /></div>
         <div class="content">
-          <h3><a href="https://kyle-eisenbarger.com/" target="_blank">Kyle Eisenbarger</a></h3>
+          <h3>Steven Blair</h3>
           <h4>Secretary</h4>
-        </div>
-      </section>
-      <section class="officer">
-        <div class="image"><img src="images/mgblair.jpg" alt="" /></div>
-        <div class="content">
-          <h3><a href="http://people.cs.ksu.edu/~mgblair" target="_blank">MaryGrace Blair</a></h3>
-          <h4>Treasurer</h4>
         </div>
       </section>
       <section class="officer">
         <div class="image"><img src="images/mneilsen.jpg" alt="" /></div>
         <div class="content">
-          <h3><a href="http://people.cs.ksu.edu/~neilsen" target="_blank">Dr. Mitch Neilsen</a></h3>
+          <h3>Dr. Mitch Neilsen</h3>
           <h4>Advisor</h4>
         </div>
       </section>
