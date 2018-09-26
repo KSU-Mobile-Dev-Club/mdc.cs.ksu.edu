@@ -43,7 +43,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
     <div class="content">
       <h1><a href="/">K-State MDC</a></h1>
       <p>K-State Mobile Development Club<br />
-        Thursdays @ 7pm in DUE 1116</p>
+        Wednesdays @ 8pm in DUE 1117</p>
         <ul class="actions">
           <li><a href="https://orgsync.com/97582/chapter" target="_blank" class="button special icon fa-external-link">OrgSync</a></li>
           <li><a href="#projects" class="button icon fa-chevron-down scrolly">Learn More</a></li>
