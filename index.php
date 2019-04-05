@@ -104,7 +104,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
     </section>
     <footer id="footer">
       <a href="mailto:ksumdc@ksu.edu">ksumdc@ksu.edu</a>
-      <p class="copyright">&copy; <?= date('Y') ?> K-State Mobile Development Club. Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></p>
+      <p class="copyright">&copy; <?= date('Y') ?> Kansas State Mobile Development Club. Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></p>
     </footer>
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.scrolly.min.js"></script>
