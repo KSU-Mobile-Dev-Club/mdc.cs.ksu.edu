@@ -52,16 +52,12 @@ tr:nth-child(odd) {
 
 <table id="Leaderboard">
   <tr>
+    <th>Rank</th>
     <th>Name</th>
     <th>Score</th>
   </tr>
 </table>
 </body>
-
-
-
-
-
 
 <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase.js"></script>
 <script>
@@ -103,10 +99,13 @@ tr:nth-child(odd) {
       var newRow = tableRef.insertRow(tableRef.rows.length);
       var newCell0 = newRow.insertCell(0);
       var newCell1 = newRow.insertCell(1);
-      var newText0 = document.createTextNode(players[i].name);
-      var newText1 = document.createTextNode(players[i].score);
+      var newCell2 = newRow.insertCell(2);
+      var newText0 = document.createTextNode(i + 1); // rank
+      var newText1 = document.createTextNode(players[i].name);
+      var newText2 = document.createTextNode(players[i].score);
       newCell0.appendChild(newText0);
       newCell1.appendChild(newText1);
+      newCell2.appendChild(newText2);
     }
   }
 
@@ -124,7 +123,6 @@ tr:nth-child(odd) {
     allScores.sort(compare);
     clearTable();
     addRows(allScores);
-
   });
 
 </script>
