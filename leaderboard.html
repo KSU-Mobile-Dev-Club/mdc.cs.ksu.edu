@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  html {
+    height: 100%;
+    font-family: arial, sans-serif;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h2 {
+  text-align: center;
+  color: #ffffff;
+}
+body {
+  background: linear-gradient(to bottom, #cc66ff 0%, #cc66ff 100%);
+}
+table {
+  border-collapse: collapse;
+  width: 33%;
+  float: center;
+  border: 1;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #ffffff;
+}
+
+td, th {
+  background-color: #ffffff;
+  text-align: left;
+  padding: 8px;
+  border: 1px solid #dddddd;
+}
+
+/* tr:nth-child(even) {
+  background-color: #dddddd;
+}
+tr:nth-child(odd) {
+  background-color: #dddddd;
+} */
+</style>
+</head>
+<body>
+
+<h2>ClickerMonkey3 Leaderboard!</h2>
+
+<table id="Leaderboard">
+  <tr>
+    <th>Name</th>
+    <th>Score</th>
+  </tr>
+</table>
+</body>
+
+
+
+
+
+
+<script src="https://www.gstatic.com/firebasejs/5.9.3/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCqL9JW4l6BbbNKcsg1TmSG3wjj0ouQ9xc",
+    authDomain: "clickermonkey3.firebaseapp.com",
+    databaseURL: "https://clickermonkey3.firebaseio.com",
+    projectId: "clickermonkey3",
+    storageBucket: "clickermonkey3.appspot.com",
+    messagingSenderId: "789143445477"
+  };
+  firebase.initializeApp(config);
+
+  // get reference to the database
+  var database = firebase.database();
+
+  // Create a class to represent a user and his/her score.
+  class Player {
+    constructor(name, score) {this.name = name; this.score = score;}
+  }
+
+  function compare(a,b){
+    return b.score - a.score;
+  }
+
+  // Clear the HTML table of all its rows.
+  function clearTable() {
+    var tableRef = document.getElementById('Leaderboard').getElementsByTagName('tbody')[0];
+    for (var i = tableRef.rows.length - 1; i > 0; i--) {
+      tableRef.deleteRow(i);
+    }
+  }
+
+  // Add the given array of players to the HTML table
+  function addRows(players){
+    var tableRef = document.getElementById('Leaderboard').getElementsByTagName('tbody')[0];
+    for (var i = 0; i < players.length; i++){
+      var newRow = tableRef.insertRow(tableRef.rows.length);
+      var newCell0 = newRow.insertCell(0);
+      var newCell1 = newRow.insertCell(1);
+      var newText0 = document.createTextNode(players[i].name);
+      var newText1 = document.createTextNode(players[i].score);
+      newCell0.appendChild(newText0);
+      newCell1.appendChild(newText1);
+    }
+  }
+
+  // Event handler for Firebase snapshots.
+  var scoreRef = database.ref('scores/');
+    scoreRef.on('value', function(snapshot) {
+    var allScores = [];
+    snapshot.forEach(function(childSnapshot) {
+      var childData = childSnapshot.val();
+      var playerName = childData['name'];
+      var playerScore = childData['score'];
+      var p = new Player(playerName, playerScore);
+      allScores.push(p);
+    });
+    allScores.sort(compare);
+    clearTable();
+    addRows(allScores);
+
+  });
+
+</script>
+</html>
