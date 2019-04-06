@@ -18,8 +18,32 @@ h2 {
   text-align: center;
   color: #ffffff;
 }
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+a:link {
+  text-align: center;
+  color: #ffffff;
+}
+
+a:visited {
+  text-align: center;
+  color: #ffffff;
+}
+
+a:hover {
+  color: #ffffff;
+  text-align: center;
+}
+
+a:active {
+  color: #ffffff;
+  background-color: transparent;
+}
 body {
-  background: linear-gradient(to bottom, #cc66ff 0%, #cc66ff 100%);
+  background: linear-gradient(to bottom, #ff9966 0%, #ff9966 100%);
 }
 table {
   border-collapse: collapse;
@@ -36,6 +60,11 @@ td, th {
   text-align: left;
   padding: 8px;
   border: 1px solid #dddddd;
+}
+p {
+  text-align: center;
+  color: #ffffff;
+  line-height: 50%;
 }
 
 /* tr:nth-child(even) {
@@ -58,6 +87,9 @@ tr:nth-child(odd) {
   </tr>
 </table>
 </body>
+<img src="images/monkey.png" alt="Monkey" width="300" height="300">
+<p id="TotalClicks">Total Clicks: </p>
+<p>K-State MDC 2019</p>
 
 <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase.js"></script>
 <script>
@@ -95,6 +127,7 @@ tr:nth-child(odd) {
   // Add the given array of players to the HTML table
   function addRows(players){
     var tableRef = document.getElementById('Leaderboard').getElementsByTagName('tbody')[0];
+    var total = 0;
     for (var i = 0; i < players.length; i++){
       var newRow = tableRef.insertRow(tableRef.rows.length);
       var newCell0 = newRow.insertCell(0);
@@ -103,10 +136,12 @@ tr:nth-child(odd) {
       var newText0 = document.createTextNode(i + 1); // rank
       var newText1 = document.createTextNode(players[i].name);
       var newText2 = document.createTextNode(players[i].score);
+      total += players[i].score;
       newCell0.appendChild(newText0);
       newCell1.appendChild(newText1);
       newCell2.appendChild(newText2);
     }
+    var scoreRef = document.getElementById("TotalClicks").textContent = "Total clicks: " + total;
   }
 
   // Event handler for Firebase snapshots.
