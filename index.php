@@ -91,7 +91,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
         <div class="image"><img src="images/steven.jpg" alt="" /></div>
         <div class="content">
           <h3>Steven Blair</h3>
-          <h4>Secretary</h4>
+          <h4>President</h4>
         </div>
       </section>
       <section class="officer">
