@@ -43,9 +43,9 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
     <div class="content">
       <h1><a href="/">K-State MDC</a></h1>
       <p>K-State Mobile Development Club<br />
-        Wednesdays @ 8pm in DUE 1117</p>
+        Wednesdays @ 6:00pm in DUE 1117 <br /></p>
         <ul class="actions">
-          <li><a href="https://orgsync.com/97582/chapter" target="_blank" class="button special icon fa-external-link">OrgSync</a></li>
+          <li><a href="https://k-state.campuslabs.com/engage/organization/mobile-development-club" target="_blank" class="button special icon fa-external-link">OrgCentral</a></li>
           <li><a href="#projects" class="button icon fa-chevron-down scrolly">Learn More</a></li>
         </ul>
       </div>
@@ -74,23 +74,9 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
     <section id="officers" class="wrapper">
       <header class="major"><h2>MDC Officers</h2></header>
       <section class="officer">
-        <div class="image"><img src="images/laurel.jpg" alt="" /></div>
-        <div class="content">
-          <h3>Laurel Thomson</h3>
-          <h4>President</h4>
-        </div>
-      </section>
-      <section class="officer">
         <div class="image"><img src="images/default.jpg" alt="" /></div>
         <div class="content">
-          <h3>Luke Langston</h3>
-          <h4>Vice President</h4>
-        </div>
-      </section>
-      <section class="officer">
-        <div class="image"><img src="images/steven.jpg" alt="" /></div>
-        <div class="content">
-          <h3>Steven Blair</h3>
+          <h3>Andrew Booze</h3>
           <h4>President</h4>
         </div>
       </section>
