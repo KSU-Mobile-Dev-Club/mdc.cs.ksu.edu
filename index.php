@@ -29,7 +29,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="The official website for the K-State Mobile Development Club.">
-  <meta name="author" content="Alex Todd">
+  <meta name="author" content="K-State Mobile Development Club">
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="apple-touch-icon-precomposed" href="favicon.ico" />
   <!--[if lte IE 8]><script src="js/ie/html5shiv.js"></script><![endif]-->
@@ -49,7 +49,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
           <li><a href="#projects" class="button icon fa-chevron-down scrolly">Learn More</a></li>
         </ul>
       </div>
-      <div class="image phone"><div class="inner"><img src="images/ios.jpg" alt="" /></div></div>
+      <div class="image phone"><div class="inner"><img src="images/ios.jpg" alt="The Mobile Development Club Logo displayed on a stylized phone" /></div></div>
     </header>
     <section id="projects" class="wrapper">
       <header class="major"><h2>Our Projects</h2></header>
@@ -74,14 +74,21 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
     <section id="officers" class="wrapper">
       <header class="major"><h2>MDC Officers</h2></header>
       <section class="officer">
-        <div class="image"><img src="images/default.jpg" alt="" /></div>
+        <div class="image"><img src="images/awbooze.jpg" alt="A headshot of Andrew Booze" /></div>
         <div class="content">
           <h3>Andrew Booze</h3>
-          <h4>President</h4>
+          <h4>President (2021-2022)</h4>
         </div>
       </section>
       <section class="officer">
-        <div class="image"><img src="images/mneilsen.jpg" alt="" /></div>
+        <div class="image"><img src="images/default.jpg" alt="The placeholder headshot" /></div>
+        <div class="content">
+          <h3>Jack Pleimann</h3>
+          <h4>Vice President (2021-2022)</h4>
+        </div>
+      </section>
+      <section class="officer">
+        <div class="image"><img src="images/mneilsen.jpg" alt="A headshot of Dr. Neilsen" /></div>
         <div class="content">
           <h3>Dr. Mitch Neilsen</h3>
           <h4>Advisor</h4>
