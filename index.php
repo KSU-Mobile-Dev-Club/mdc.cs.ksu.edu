@@ -45,7 +45,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
       <p>K-State Mobile Development Club<br />
         Wednesdays @ 6:00pm in DUE 1117 <br /></p>
         <ul class="actions">
-          <li><a href="https://k-state.campuslabs.com/engage/organization/mobile-development-club" target="_blank" class="button special icon fa-external-link">OrgCentral</a></li>
+          <li><a href="https://orgcentral.k-state.edu/feeds?type=club&type_id=35679&tab=about" target="_blank" class="button special icon fa-external-link">OrgCentral</a></li>
           <li><a href="#projects" class="button icon fa-chevron-down scrolly">Learn More</a></li>
         </ul>
       </div>
